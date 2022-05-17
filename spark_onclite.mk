@@ -18,6 +18,7 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 # Spark Official Stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
+TARGET_USES_BLUR := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
