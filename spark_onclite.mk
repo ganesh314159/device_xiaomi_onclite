@@ -19,6 +19,8 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
 TARGET_USES_BLUR := true
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msm8953
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
